@@ -4,7 +4,7 @@
 
 ## 🚀 Enlace del Sitio en Vivo
 Puedes ver el resultado final funcionando en tiempo real aquí:
-👉 **[Instrucción: Pega aquí tu enlace de GitHub Pages]**
+(https://ab-arzate-99.github.io/BURGER-BOB/)
 
 ---
 
