@@ -1,0 +1,61 @@
+/* --- TAREA 1: Efecto Hover --- */
+.titulo-hover {
+    font-size: 32px;
+    color: #333;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.titulo-hover:hover {
+    color: #ff4500;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* --- TAREA 2: Efecto Active (El botón que faltaba) --- */
+.boton-active {
+    font-size: 28px;
+    color: #ffffff;
+    background-color: #e65100;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    user-select: none;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+.boton-active:active {
+    background-color: #bf360c;
+    transform: scale(0.95);
+}
+
+
+/* --- TAREA 3: Imagen centrada y estilizada --- */
+.img-hamburguesa {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+
+/* --- TAREA 4: Uso de :target --- */
+
+/* Estilo simple para la palabra ¡ARROZ! */
+.enlace-arroz {
+    font-size: 24px;
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+/* Cuando el usuario hace clic en ¡ARROZ!, el elemento con el id apuntado cambia de color */
+#titulo-hamburguesa:target {
+    color: #2e7d32; /* Cambia a color verde (o el color que prefieras) */
+    transition: color 0.3s ease;
+}
